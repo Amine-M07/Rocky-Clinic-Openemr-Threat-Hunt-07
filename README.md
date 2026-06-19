@@ -645,6 +645,7 @@ DeviceProcessEvents
  
 🧠 **Thought process:** Counting distinct `sed -i` command lines within the three-minute window returned 12 separate operations — patterns targeting service and account identifiers across both log files. The precision was the tell: a wholesale truncation would have been faster but would have created an obvious gap; twelve targeted deletions preserved surrounding log noise while removing only the attacker's own fingerprints.
  
+<img width="1002" height="263" alt="26" src="https://github.com/user-attachments/assets/7823e7cb-c937-42e3-b3f1-79e07ea0a811" />
 
 
 **Finding: `12`**
